@@ -1,5 +1,7 @@
 # Getting-and-Cleaning-Data-Course-Project
 
+This repo contains the files from the Getting and Cleaning Data Course Project.
+
 ## Files
 
 ### tidyDataset.txt
