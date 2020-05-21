@@ -2,79 +2,34 @@
 
 ## Description
 
+### Data
+The data set includes the average of the mean and standard deviation of 33 signals from an experiment carried out with 30 volunteers within an age bracket of 19-48 years which performed six activities. The data is segmented for each volunteer and each activity.
+
 ### Identifiers
 + subject: Identifies the volunteer (30 volunteers)
 + activity: Identifies the activity type (WALKING, WALKING UPSTAIRS, WALKING DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 ### Variables
-Each variable is the average of the variable 
+There are 66 variables which represent the average of the mean or standard deviation (Std) of the following signals:
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-+ "tBodyAccMeanX"
-+ "tBodyAccMeanY"
-+ "tBodyAccMeanZ"
-+ "tBodyAccStdX"
-+ "tBodyAccStdY"
-+ "tBodyAccStdZ"
-+ "tGravityAccMeanX"
-+ "tGravityAccMeanY"
-+ "tGravityAccMeanZ"
-+ "tGravityAccStdX"
-+ "tGravityAccStdY"
-+ "tGravityAccStdZ"
-+ "tBodyAccJerkMeanX"
-+ "tBodyAccJerkMeanY"
-+ "tBodyAccJerkMeanZ"
-+ "tBodyAccJerkStdX"
-+ "tBodyAccJerkStdY"
-+ "tBodyAccJerkStdZ"
-+ "tBodyGyroMeanX"
-+ "tBodyGyroMeanY"
-+ "tBodyGyroMeanZ"
-+ "tBodyGyroStdX"
-+ "tBodyGyroStdY"
-+ "tBodyGyroStdZ"
-+ "tBodyGyroJerkMeanX"
-+ "tBodyGyroJerkMeanY"
-+ "tBodyGyroJerkMeanZ"
-+ "tBodyGyroJerkStdX"
-+ "tBodyGyroJerkStdY"
-+ "tBodyGyroJerkStdZ"
-+ "tBodyAccMagMean"
-+ "tBodyAccMagStd"
-+ "tGravityAccMagMean"
-+ "tGravityAccMagStd"
-+ "tBodyAccJerkMagMean"
-+ "tBodyAccJerkMagStd"
-+ "tBodyGyroMagMean"
-+ "tBodyGyroMagStd"
-+ "tBodyGyroJerkMagMean"
-+ "tBodyGyroJerkMagStd"
-+ "fBodyAccMeanX"
-+ "fBodyAccMeanY"
-+ "fBodyAccMeanZ"
-+ "fBodyAccStdX"
-+ "fBodyAccStdY"
-+ "fBodyAccStdZ"
-+  "fBodyAccJerkMeanX"
-+ "fBodyAccJerkMeanY"
-+ "fBodyAccJerkMeanZ"
-+ "fBodyAccJerkStdX"
-+ "fBodyAccJerkStdY"
-+  "fBodyAccJerkStdZ"
-+ "fBodyGyroMeanX"
-+ "fBodyGyroMeanY"
-+ "fBodyGyroMeanZ"
-+ "fBodyGyroStdX"
-+ "fBodyGyroStdY"
-+ "fBodyGyroStdZ"
-+ "fBodyAccMagMean"
-+ "fBodyAccMagStd"
-+ "fBodyBodyAccJerkMagMean"
-+ "fBodyBodyAccJerkMagStd"
-+ "fBodyBodyGyroMagMean"
-+ "fBodyBodyGyroMagStd"
-+ "fBodyBodyGyroJerkMagMean"
-+ "fBodyBodyGyroJerkMagStd"
++ tBodyAcc-XYZ
++ tGravityAcc-XYZ
++ tBodyAccJerk-XYZ
++ tBodyGyro-XYZ
++ tBodyGyroJerk-XYZ
++ tBodyAccMag
++ tGravityAccMag
++ tBodyAccJerkMag
++ tBodyGyroMag
++ tBodyGyroJerkMag
++ fBodyAcc-XYZ
++ fBodyAccJerk-XYZ
++ fBodyGyro-XYZ
++ fBodyAccMag
++ fBodyAccJerkMag
++ fBodyGyroMag
++ fBodyGyroJerkMag
 
 ## Clean-up Process
 1. The raw data was downloaded from [UCI HAR DATASET](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
