@@ -9,8 +9,6 @@
 ### Variables
 Each variable is the average of the variable 
 
-+ "subject"
-+ "activity"
 + "tBodyAccMeanX"
 + "tBodyAccMeanY"
 + "tBodyAccMeanZ"
