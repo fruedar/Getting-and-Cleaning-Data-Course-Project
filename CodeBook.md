@@ -11,6 +11,7 @@ The data set includes the average of the mean and standard deviation of 33 signa
 
 ### Variables
 There are 66 variables which represent the average of the mean or standard deviation (Std) of the following signals:
+
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 + tBodyAcc-XYZ
