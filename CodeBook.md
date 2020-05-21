@@ -3,7 +3,7 @@
 ## Description
 
 ### Data
-The data set includes the average of the mean and standard deviation of 33 signals from an experiment carried out with 30 volunteers within an age bracket of 19-48 years which performed six activities. The data is segmented for each volunteer and each activity.
+The data set includes the average of the mean and standard deviation of 33 signals from an  UCI HAR experiment carried out with 30 volunteers within an age bracket of 19-48 years which performed six activities. The data is segmented for each volunteer and each activity.
 
 ### Identifiers
 + subject: Identifies the volunteer (30 volunteers)
