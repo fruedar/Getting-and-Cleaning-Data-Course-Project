@@ -45,12 +45,12 @@ Note: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
   + activity_labels.txt
   + features.txt
 
-3. The activity and features labels where reformatted by eliminating underscores,dashes and parenthesis to ease readability and further analysis.
+3. The activity and features labels where reformatted by eliminating underscores, dashes and parenthesis to ease readability and further analysis.
 
 4. The X_test.txt, y_test.txt and subject_test.txt files where merged, the activities factor was renamed using descriptive names for each of the 6 activities of the experiment, and the variable names where set using the features labels. The same procedure was followed to clean the files of the train group.
 
 5. The resulting data sets from the test and train groups where merged and a new tidy data set was created by extracting only the columns where the mean and standard deviation measurements for each variable where stored.
 
-6. Finally, another data set was created, which contains the average of each variable for each activity and subject. This data set was exported as "tidyDataset.txt".
+6. Finally, the previous data set was melted and then recasted in order to create another data set which contains the average of each variable for each activity and subject. This data set was exported as "tidyDataset.txt".
 
   
